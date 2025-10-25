@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us - Milk Tea Shop</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body, html {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    /* Background image covering whole page */
+    body {
+      background: url('background2.jpg') no-repeat center center fixed;
+      background-size: 1000px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+      padding: 20px;
+    }
+
+    /* Container for content */
+    .contact-container {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(10px);
+      border-radius: 15px;
+      padding: 30px 40px;
+      max-width: 400px;
+      width: 100%;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 15px;
+      line-height: 1.5;
+    }
+
+    a.back-link {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 25px;
+      background: #f7b733;
+      color: #222;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 50px;
+      box-shadow: 0 4px 15px rgba(247, 183, 51, 0.6);
+      transition: background 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    a.back-link:hover {
+      background: #ffcc33;
+      box-shadow: 0 6px 20px rgba(255, 204, 51, 0.8);
+      color: #111;
+    }
+
+    /* Responsive */
+    @media(max-width: 480px) {
+      .contact-container {
+        max-width: 90%;
+        padding: 25px 20px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="contact-container" role="main" aria-label="Contact Information">
+    <h1>Contact Us</h1>
+    <p><strong>The Tea Bar</strong></p>
+    <p>Campaca Pamutan, Cebu City</p>
+    <p>Phone: <a href="tel:09692207480" style="color: #fff; text-decoration: underline;">+1 (234) 567-890</a></p>
+    <p>Email: <a href="mailto:contact@theteabar.com" style="color: #fff; text-decoration: underline;">contact@theteabar.com</a></p>
+    <p>Follow us on social media:</p>
+    <p>
+      <a href="https://facebook.com/theteabar" target="_blank" rel="noopener" style="color:#f7b733; text-decoration:none; font-weight:bold;">Facebook</a> |
+      <a href="https://instagram.com/theteabar" target="_blank" rel="noopener" style="color:#f7b733; text-decoration:none; font-weight:bold;">Instagram</a>
+    </p>
+
+    <a href="index.html" class="back-link" aria-label="Back to Home Page">← Back to Home</a>
+  </div>
+</body>
+</html>
